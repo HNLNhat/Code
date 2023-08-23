@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ManHinhChaoActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/fpt_polytechnic"
+        android:layout_gravity="center"/>
+
+    <ImageView
+        android:id="@+id/ivBee"
+        android:layout_width="300dp"
+        android:layout_height="260dp"
+        android:src="@drawable/bee"
+        android:layout_gravity="center"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <TextView
+        android:id="@+id/My"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/calibri"
+        android:text="My"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#04EFDB"/>
+    <TextView
+        android:id="@+id/F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/calibri"
+        android:text="F"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#0055FF"/>
+        <TextView
+            android:id="@+id/poly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/calibri"
+            android:text="PoLy"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#F84107"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:src="@drawable/grounp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

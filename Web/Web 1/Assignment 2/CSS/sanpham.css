@@ -1,0 +1,21 @@
+
+.content{
+    display: inline-block;
+    overflow: hidden; 
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    margin: 28px;
+    float:left;
+    text-align: center;
+    border-radius:10px;
+}
+.content img{
+    display: block;
+    transition: .3s ease-in-out;
+    text-align:center;
+  
+}
+.content h2{
+text-align: center;
+}

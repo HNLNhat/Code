@@ -1,0 +1,198 @@
+body{
+        padding:0px;
+        margin: 0px;
+}
+
+.container{ 
+        max-width: 100%;
+        margin:0 auto;
+}
+
+.container>header{  
+        background-image: url('images/hinh-anh-banner-dien-may-thong-minh_033705387.png');
+        background-size: 100% 100%;
+        height: 0px;
+        padding-bottom: 15%;
+}  
+
+.container>nav{ 
+        line-height: 40px;
+        background-color: yellowgreen;
+        color: white;
+        font-variant: small-caps;
+        text-align: center;
+}
+
+.container>nav>li{
+        list-style: none;
+        display: inline;
+}
+
+.container>nav>li>a{
+        margin:0 10px;
+        color: black;
+        text-decoration: none;
+}
+
+.container>article{ 
+        min-height: 425px;
+        width: 80%;
+        background-color:white;
+        float: left;      
+}   
+
+.container>aside{   
+        min-height: 425px ;
+        width: 20%;
+        background-color: lightcyan;
+        float: right;
+}
+
+.container>footer{  
+        border-top: 5px double yellowgreen;
+        line-height: 50px;
+        background-color: lightcyan;
+        text-align: center;
+        font-variant: small-caps;
+        clear: both;
+}   
+
+.container>nav>a{   
+        color: black;
+        text-decoration: none;
+        margin: 0 10px;
+        font-size: 20px;
+}
+
+.container>nav>li>a:hover{ 
+        color: red;
+        text-decoration: underline;    
+}   
+
+iframe[name=page]{
+        width: 100%; 
+        min-height: 550px;
+}       
+
+.menu>ul>li{
+        display: inline-block;
+        position: relative;
+}
+
+.menu>ul>li>a{
+        display: block;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: larger;
+        color: white;
+        padding: 0 10px;
+        line-height: 40px;
+}
+
+.menu>ul{
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        background-color: yellowgreen;
+        text-align: center;
+}
+
+.menu>ul>li>a:hover{
+        color: black;
+}
+
+.menu ul ul{
+        position: absolute;
+        display: none;
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        border-radius: 3px;
+        width: 200px;
+        background-color: white;
+        box-shadow: 0 0 1px gray;
+}
+
+.menu ul ul a{
+        display: block;
+        line-height: 30px;
+        color: yellowgreen;
+        text-decoration: none;
+        font-variant: small-caps;
+        font-size: larger;
+        padding: 0 10px;
+}
+
+.menu>ul>li:hover>ul{
+        display: block;
+}
+
+.menu ul ul a:hover{
+        background-color: yellowgreen;
+        color: black;
+}
+
+.so1{
+        width: 200px;
+        height: 25px;
+}
+
+.container-1{
+        width: 300px;
+        vertical-align: middle;
+        white-space: nowrap;
+        position: relative;
+      }
+
+.container-1 input#search{
+        width: 250px;
+        height: 35px;
+        background: yellowgreen;
+        border: none;
+        font-size: 10pt;
+        float:left;
+        color: white;
+        padding-left: 45px;
+}
+
+.login-form{
+        width: 100%;
+        max-width: 250px;
+        margin: 20px auto;
+        background-color: #ffffff;
+        padding: 15px;
+        border: 2px dotted #cccccc;
+        border-radius: 10px;
+}
+h1{
+        color: yellowgreen;
+        font-size: 20px;
+        margin-bottom: 30px;
+}
+.input-box{
+        margin-bottom: 10px;
+}
+.input-box input{
+        padding: 7.5px 15px;
+        width: 88%;
+        border: 1px solid #cccccc;
+        outline: none;
+}
+.btn-box{
+        text-align: right;
+        margin-top: 30px;
+}
+.btn-box button{
+        padding: 7.5px 15px;
+        border-radius: 2px;
+        background-color: yellowgreen;
+        color: #ffffff;
+        border: none;
+        outline: none;
+}
+
+.dangki{
+        color: white;
+        text-decoration: none;
+}

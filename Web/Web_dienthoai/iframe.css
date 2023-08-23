@@ -1,0 +1,80 @@
+div.col-25{    
+    width: 25%;
+    float: left;
+}
+div>div.prod{   
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;}
+div>div>div.name{   
+    font-variant: small-caps;
+    color: orangered;
+}
+div>div>img.images{     
+    max-width: 200%;
+    width: 270px;
+    height: 270px;
+    margin-bottom: 15px;
+}
+div>div>div.price{  
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family: Impact;
+    font-size: 25px;
+    color: orange;
+}
+div>div>div>img.a1{  
+    position: absolute;
+    right: 10px;
+    bottom: 120px;
+    width: 35px;
+    height: 35px;
+}
+div>div>div>img.a2{  
+    position: absolute;
+    right: 10px;
+    bottom: 65px;
+    width: 40px;
+    height: 35px;
+}
+div>div>div>img.a3{  
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 35px;
+    height: 35px;
+}
+div>div>img.new-icon{  
+    max-width: 15%;   
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+h1{
+    text-align: center;
+    color: yellowgreen;
+}
+.menu{ 
+    line-height: 40px;
+    background-color: yellowgreen;
+    color: white;
+    font-variant: small-caps;
+    text-align: center;
+    list-style: none;
+}
+.menu li{
+    list-style: none;
+    display: inline;
+}
+.menu li a{
+    margin:0 10px;
+    color: white;
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: black; 
+}

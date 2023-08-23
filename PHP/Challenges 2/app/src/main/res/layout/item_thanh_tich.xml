@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center"
+
+    android:padding="6dp">
+    <androidx.cardview.widget.CardView
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="15dp"
+        android:backgroundTint="#8AD67D"
+
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+
+            >
+            <TextView
+                android:id="@+id/tvTen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên"
+                android:textSize="20dp"
+                android:textColor="#FF0000"
+                android:textStyle="bold"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lớp:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/tvLopHoc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Lớp Học"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày:"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/tvNgaythem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Ngày Thêm"
+                    android:textSize="16dp"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+                <TextView
+                    android:id="@+id/tvMaMon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Mã môn học"
+                    android:textSize="18dp"
+                    android:textColor="@color/purple_700"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="-"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+                    <TextView
+                        android:id="@+id/tvTenMon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Tên môn"
+                        android:textSize="16dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="#1EB0C3">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="160dp"
+                android:text=""
+                android:textColor="@color/black"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thành tích:"
+                android:textSize="20dp"
+                android:textColor="#5066B8"
+
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/tvDatLoai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Đạt Loại"
+                android:textColor="@color/black"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:padding="20dp"
+                />
+        </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
